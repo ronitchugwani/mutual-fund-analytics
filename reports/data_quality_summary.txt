@@ -1,0 +1,25 @@
+DATA QUALITY SUMMARY
+
+1. Dataset Count
+   - 6 datasets loaded successfully
+
+2. Missing Values
+   - Missing values observed in:
+     - fund_master.csv -> isin_div_reinvestment (5 missing values)
+
+3. Duplicates
+   - 0 duplicate rows found
+
+4. AMFI Validation
+   - 6 scheme codes checked
+   - 0 missing in NAV history
+
+5. Datatype Issues
+   - Date columns require parsing
+   - NAV columns require numeric conversion
+
+6. Recommendation
+   - Standardize date formats
+   - Remove duplicates
+   - Impute or drop missing records
+   - Create schema validation checks

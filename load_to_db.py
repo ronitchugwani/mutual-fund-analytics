@@ -1,4 +1,5 @@
 import pandas as pd
+# pyrefly: ignore [missing-import]
 from sqlalchemy import create_engine
 import os
 
@@ -149,6 +150,31 @@ def main():
         print(f"Successfully loaded {len(fact_perf)} records into fact_performance.")
     else:
         print("Warning: Cleaned performance file not found. Skipping fact_performance.")
+
+    # 5. Populate fact_aum
+    aum_path = "data/processed/scheme_aum_clean.csv"
+    if os.path.exists(aum_path):
+        print("Populating fact_aum...")
+        aum = pd.read_csv(aum_path)
+        
+        aum['date_parsed'] = pd.to_datetime(aum['date'])
+        date_mapping = get_or_create_date_keys(aum['date_parsed'])
+        aum['full_date_str'] = aum['date_parsed'].dt.strftime('%Y-%m-%d')
+        
+        aum = aum.merge(date_mapping, left_on='full_date_str', right_on='full_date', how='inner')
+        
+        scheme_col = 'scheme_code' if 'scheme_code' in aum.columns else ('amfi_code' if 'amfi_code' in aum.columns else None)
+        if scheme_col:
+            aum = aum.merge(dim_fund_lookup, left_on=scheme_col, right_on='amfi_code', how='inner')
+            
+        fact_aum = aum[['fund_key', 'date_key', 'aum']]
+        
+        with engine.begin() as conn:
+            conn.exec_driver_sql("DELETE FROM fact_aum")
+            fact_aum.to_sql('fact_aum', conn, if_exists='append', index=False)
+        print(f"Successfully loaded {len(fact_aum)} records into fact_aum.")
+    else:
+        print("Warning: Cleaned AUM file not found. Skipping fact_aum.")
 
 if __name__ == "__main__":
     main()

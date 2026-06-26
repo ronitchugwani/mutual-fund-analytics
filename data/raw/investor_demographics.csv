@@ -1,0 +1,101 @@
+investor_id,age_group,gender,state
+INV0001,31-45,Male,Maharashtra
+INV0002,18-30,Female,Delhi
+INV0003,18-30,Male,Delhi
+INV0004,46-60,Male,Uttar Pradesh
+INV0005,18-30,Male,Gujarat
+INV0006,31-45,Female,Maharashtra
+INV0007,46-60,Male,Maharashtra
+INV0008,31-45,Male,Delhi
+INV0009,31-45,Male,Gujarat
+INV0010,31-45,Male,Uttar Pradesh
+INV0011,31-45,Female,Delhi
+INV0012,31-45,Female,Gujarat
+INV0013,18-30,Female,Maharashtra
+INV0014,46-60,Male,Uttar Pradesh
+INV0015,18-30,Female,Karnataka
+INV0016,18-30,Female,Delhi
+INV0017,46-60,Male,Karnataka
+INV0018,31-45,Male,Maharashtra
+INV0019,18-30,Female,Maharashtra
+INV0020,31-45,Female,Karnataka
+INV0021,46-60,Female,Maharashtra
+INV0022,18-30,Female,Gujarat
+INV0023,31-45,Male,Tamil Nadu
+INV0024,18-30,Male,Gujarat
+INV0025,31-45,Female,Uttar Pradesh
+INV0026,46-60,Female,Gujarat
+INV0027,46-60,Male,Uttar Pradesh
+INV0028,31-45,Male,Maharashtra
+INV0029,31-45,Male,Karnataka
+INV0030,31-45,Male,Delhi
+INV0031,31-45,Male,Tamil Nadu
+INV0032,46-60,Female,Tamil Nadu
+INV0033,31-45,Female,Delhi
+INV0034,31-45,Female,Karnataka
+INV0035,46-60,Male,Uttar Pradesh
+INV0036,31-45,Female,Uttar Pradesh
+INV0037,46-60,Male,Gujarat
+INV0038,46-60,Male,Gujarat
+INV0039,31-45,Male,Delhi
+INV0040,31-45,Female,Tamil Nadu
+INV0041,46-60,Female,Uttar Pradesh
+INV0042,18-30,Male,Uttar Pradesh
+INV0043,31-45,Female,Maharashtra
+INV0044,31-45,Male,Maharashtra
+INV0045,46-60,Female,Tamil Nadu
+INV0046,46-60,Female,Maharashtra
+INV0047,18-30,Male,Gujarat
+INV0048,31-45,Female,Delhi
+INV0049,31-45,Female,Tamil Nadu
+INV0050,31-45,Female,Delhi
+INV0051,31-45,Female,Delhi
+INV0052,31-45,Male,Uttar Pradesh
+INV0053,46-60,Female,Uttar Pradesh
+INV0054,46-60,Female,Gujarat
+INV0055,46-60,Female,Karnataka
+INV0056,46-60,Male,Delhi
+INV0057,18-30,Female,Maharashtra
+INV0058,18-30,Male,Maharashtra
+INV0059,46-60,Male,Uttar Pradesh
+INV0060,46-60,Male,Uttar Pradesh
+INV0061,18-30,Female,Gujarat
+INV0062,46-60,Male,Tamil Nadu
+INV0063,31-45,Female,Gujarat
+INV0064,31-45,Female,Gujarat
+INV0065,31-45,Female,Gujarat
+INV0066,18-30,Male,Uttar Pradesh
+INV0067,46-60,Male,Uttar Pradesh
+INV0068,18-30,Female,Uttar Pradesh
+INV0069,31-45,Female,Maharashtra
+INV0070,31-45,Female,Tamil Nadu
+INV0071,31-45,Male,Tamil Nadu
+INV0072,18-30,Male,Uttar Pradesh
+INV0073,31-45,Female,Gujarat
+INV0074,46-60,Male,Gujarat
+INV0075,18-30,Male,Uttar Pradesh
+INV0076,46-60,Female,Uttar Pradesh
+INV0077,46-60,Male,Delhi
+INV0078,60+,Female,Delhi
+INV0079,31-45,Male,Gujarat
+INV0080,31-45,Female,Tamil Nadu
+INV0081,31-45,Male,Maharashtra
+INV0082,46-60,Female,Karnataka
+INV0083,18-30,Male,Maharashtra
+INV0084,60+,Male,Gujarat
+INV0085,60+,Male,Maharashtra
+INV0086,31-45,Female,Maharashtra
+INV0087,18-30,Male,Delhi
+INV0088,18-30,Female,Gujarat
+INV0089,31-45,Male,Karnataka
+INV0090,46-60,Female,Delhi
+INV0091,31-45,Male,Uttar Pradesh
+INV0092,60+,Female,Tamil Nadu
+INV0093,46-60,Female,Tamil Nadu
+INV0094,18-30,Female,Maharashtra
+INV0095,31-45,Male,Delhi
+INV0096,31-45,Male,Karnataka
+INV0097,18-30,Male,Gujarat
+INV0098,31-45,Male,Gujarat
+INV0099,60+,Male,Maharashtra
+INV0100,18-30,Male,Uttar Pradesh

@@ -1,0 +1,49 @@
+stock,sector,weight
+Reliance Industries,Energy,9.5
+HDFC Bank,Financial Services,8.2
+ICICI Bank,Financial Services,7.5
+Infosys,Information Technology,6.8
+TCS,Information Technology,5.5
+ITC,Fast Moving Consumer Goods,4.8
+L&T,Construction,4.2
+SBI,Financial Services,3.9
+Hindustan Unilever,Fast Moving Consumer Goods,3.5
+Axis Bank,Financial Services,3.2
+Kotak Mahindra Bank,Financial Services,3.0
+Bharti Airtel,Telecommunication,2.8
+TCS,Information Technology,2.5
+Sun Pharma,Healthcare,2.4
+Tata Motors,Automobile,2.2
+Maruti Suzuki,Automobile,2.0
+NTPC,Energy,1.8
+Power Grid,Energy,1.7
+HCL Tech,Information Technology,1.6
+Wipro,Information Technology,1.5
+Cipla,Healthcare,1.4
+Dr. Reddy s,Healthcare,1.3
+M&M,Automobile,1.2
+UltraTech Cement,Construction,1.2
+Adani Ports,Infrastructure,1.1
+Coal India,Energy,1.0
+Tata Steel,Metals & Mining,1.0
+JIO Financial,Financial Services,0.9
+Bajaj Finance,Financial Services,0.8
+Asian Paints,Consumer Durables,0.8
+Titan,Consumer Durables,0.7
+Nestle India,Fast Moving Consumer Goods,0.7
+JSW Steel,Metals & Mining,0.6
+Hindalco,Metals & Mining,0.6
+Tech Mahindra,Information Technology,0.5
+LTIMindtree,Information Technology,0.5
+Apollo Hospitals,Healthcare,0.4
+Eicher Motors,Automobile,0.4
+Hero MotoCorp,Automobile,0.4
+Grasim,Construction,0.4
+Bajaj Auto,Automobile,0.3
+IndusInd Bank,Financial Services,0.3
+Britannia,Fast Moving Consumer Goods,0.3
+Tata Consumer,Fast Moving Consumer Goods,0.3
+Adani Enterprises,Conglomerates,0.2
+Adani Green,Conglomerates,0.2
+Adani Transmission,Conglomerates,0.2
+Others,Others,3.1

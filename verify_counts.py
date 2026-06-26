@@ -1,3 +1,4 @@
+# pyrefly: ignore [missing-import]
 from sqlalchemy import create_engine
 import pandas as pd
 
@@ -7,7 +8,8 @@ engine = create_engine(f"sqlite:///{db_path}")
 tables = [
     "fact_nav",
     "fact_transactions",
-    "fact_performance"
+    "fact_performance",
+    "fact_aum"
 ]
 
 for table in tables:
